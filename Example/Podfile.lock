@@ -1,0 +1,24 @@
+PODS:
+  - MGJRouter (0.10.0)
+  - QXMe (0.1.0):
+    - MGJRouter (~> 0.10.0)
+
+DEPENDENCIES:
+  - MGJRouter (~> 0.10.0)
+  - QXMe (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MGJRouter
+
+EXTERNAL SOURCES:
+  QXMe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  QXMe: 5eee5f1f8fdab6c0c41ce994523d90b3cb1cb330
+
+PODFILE CHECKSUM: ba4a377542776af404f24614d2b5faaa5e07db5f
+
+COCOAPODS: 1.10.0.beta.2

@@ -1,0 +1,28 @@
+{
+  "name": "QXMe",
+  "version": "0.1.0",
+  "summary": "My short description of QXMe.",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/aloow/QXMe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aloow": "xuesq@pvc123.com"
+  },
+  "source": {
+    "git": "https://github.com/aloow/QXMe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QXMe/Classes/**/*",
+  "resources": "QXMe/Assets/*.{xcassets}",
+  "dependencies": {
+    "MGJRouter": [
+      "~> 0.10.0"
+    ]
+  }
+}

@@ -1,10 +1,12 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'QXMe_Example' do
   pod 'QXMe', :path => '../'
 
+  pod 'MGJRouter', '~> 0.10.0' # 中间件
+  
   target 'QXMe_Tests' do
     inherit! :search_paths
 

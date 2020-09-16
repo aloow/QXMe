@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057914133F35189B2158DEBB415468AA /* QXMeController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4EB080D8FAEC0394356D816FC3BB97B4 /* QXMeController.xib */; };
+		0B88CB510523DB5A794ED7B919A518EC /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D1769BDF8E06F1E72CA2D2A6FDA943 /* MGJRouter.m */; };
+		0DCCE7BCE109023B7E8E3E8E3E4BA780 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9B45C4CB35ADB82F6608D61F475F91 /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B7CF8067841A944309D428E66AC3D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		1F304A8FE4557792A88191EC9ED9E98D /* Pods-QXMe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B37CBA152385C459F34EC3BD0CF3F7 /* Pods-QXMe_Tests-dummy.m */; };
+		26ED63DE829FB788E8AE393681CE1437 /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D65E9283D32B3E0C8B93989251128EE /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3860772A43580E38586F2F30E75044 /* QXMePublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3002D273529A67C9C2E493DC6551D5 /* QXMePublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4648F2E8BE841E7DFD83184F53C17B73 /* QXMeLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C7168B3A45517C43AD5CFB2C908B05 /* QXMeLoad.m */; };
+		4ABF5EDD3C13D95300FF2298CC8CC3E1 /* QXMe.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536AECD04B7BFD7A8996C021AAE2BDE7 /* QXMe.xcassets */; };
+		4ACB59DB18CB3408BA1F99D53837D40F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		4C326E8B5547C229EC586A4A78123BAE /* QXMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69E6F2F4CD49D5FFEB4CEC82330874 /* QXMe-dummy.m */; };
+		4E529E161E82A3730CDCA073929C8385 /* QXMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F8828DCF173184160612EAA79BBC4 /* QXMeController.m */; };
+		4FF5A8EF1A46F7089BFB1B6E3ADD3D37 /* Pods-QXMe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 866FFE5FEA88FB36FAF8380C7EC4FC97 /* Pods-QXMe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EB40A721F0230806F2E631CDDAD870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		66E2985987D2871D5112EE0C5699F4F9 /* Pods-QXMe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05D77883F45067F07F02490F48A9DB /* Pods-QXMe_Example-dummy.m */; };
+		7E70B7F07A5C449BB2470BAAF382DEE8 /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4476E8C72C0C3320B977F4C09ED21 /* MGJRouter-dummy.m */; };
+		89C1A14D61049E8EB41E02EEB5B7AC16 /* QXMeLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE5E5323E67714037F8F5A4BF8E435D /* QXMeLoad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23763F63A1B2BCB076E46180E01A556 /* QXMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E128BBA96180434D184ACD25A1AD33 /* QXMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4CD14FC9F307C6FABA35041AE886207 /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */; };
+		C2EA16666F08AEF2D22B1D653C2D847A /* Pods-QXMe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B831CDEE97796D221CC70CF343EA821 /* Pods-QXMe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0607E977B7BAC4F8A99F71743526E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		EDF6E43CA02EA74F212A7188F6859550 /* QXMeController.h in Headers */ = {isa = PBXBuildFile; fileRef = D19C1E87C19AFDF4BD7F4572E1AD05CC /* QXMeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140EEAA982E95D56FDD637D645B512B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05EFAB4641387DB59867C088BAF00810;
+			remoteInfo = MGJRouter;
+		};
+		1B071CFED8029A1D1D1D2DB5C8F8C5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5483699A87FBA980A8AEDDB981ABD34E;
+			remoteInfo = QXMe;
+		};
+		C9C8C849021014BAC0F29A8C2EC72C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8991FEC2C92EFB5709FD96310FF4B847;
+			remoteInfo = "Pods-QXMe_Example";
+		};
+		F9D809BD8CEBA8088711F7E06EF1F8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05EFAB4641387DB59867C088BAF00810;
+			remoteInfo = MGJRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0062AD291C43B75D6D4179F38B3D429F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1452AAEAFCB30EA41F8D827EA1461D5D /* Pods-QXMe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMe_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1AE5E5323E67714037F8F5A4BF8E435D /* QXMeLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QXMeLoad.h; path = QXMe/Classes/QXMeLoad.h; sourceTree = "<group>"; };
+		22C5A3C3288035770F8E62E2F9DA8F6A /* Pods-QXMe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXMe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32C7168B3A45517C43AD5CFB2C908B05 /* QXMeLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QXMeLoad.m; path = QXMe/Classes/QXMeLoad.m; sourceTree = "<group>"; };
+		3525569351F1EC13C13E1E5BF0EECD89 /* QXMe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QXMe.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B831CDEE97796D221CC70CF343EA821 /* Pods-QXMe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXMe_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D5BCF0F9C39F0695023B8084752068D /* Pods_QXMe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXMe_Example.framework; path = "Pods-QXMe_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6E06E41C704CE80723E3396DCF8B1A /* Pods-QXMe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXMe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EB080D8FAEC0394356D816FC3BB97B4 /* QXMeController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QXMeController.xib; path = QXMe/Classes/QXMeController.xib; sourceTree = "<group>"; };
+		4F3F8828DCF173184160612EAA79BBC4 /* QXMeController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QXMeController.m; path = QXMe/Classes/QXMeController.m; sourceTree = "<group>"; };
+		517DA1FCB6937F9FEF86B0F8C947F366 /* Pods-QXMe_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXMe_Example-Info.plist"; sourceTree = "<group>"; };
+		52F85A6D335503A1726736CAB5E00310 /* Pods-QXMe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		536AECD04B7BFD7A8996C021AAE2BDE7 /* QXMe.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = QXMe.xcassets; path = QXMe/Assets/QXMe.xcassets; sourceTree = "<group>"; };
+		55FA30282FA596A770C90284B9538EE1 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
+		661A82C27143FF39B50949FE02741AED /* MGJRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.debug.xcconfig; sourceTree = "<group>"; };
+		6869BC96E94E1A40C61AF9ABF08AB478 /* Pods-QXMe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXMe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		68D7BEAAFB84531436840BECFCA9D904 /* Pods-QXMe_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXMe_Tests-Info.plist"; sourceTree = "<group>"; };
+		719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AEAD491BBF97604A5B7045A18A6721 /* MGJRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.release.xcconfig; sourceTree = "<group>"; };
+		7B1FB3877F7FAA19795E290F949BE360 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGJRouter.framework; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA4476E8C72C0C3320B977F4C09ED21 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
+		818145549F546EB6FF375052EB038815 /* QXMe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QXMe-Info.plist"; sourceTree = "<group>"; };
+		866FFE5FEA88FB36FAF8380C7EC4FC97 /* Pods-QXMe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXMe_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A0E81D97BBF144B7E53284A4DB9C973 /* Pods-QXMe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXMe_Example.modulemap"; sourceTree = "<group>"; };
+		8D65E9283D32B3E0C8B93989251128EE /* MGJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-umbrella.h"; sourceTree = "<group>"; };
+		8F05D77883F45067F07F02490F48A9DB /* Pods-QXMe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXMe_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06F6581322EE78E5C97AB7D59B13FD0 /* Pods_QXMe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXMe_Tests.framework; path = "Pods-QXMe_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B37CBA152385C459F34EC3BD0CF3F7 /* Pods-QXMe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXMe_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD567DB83A29CBD91112C2EC8629E6C2 /* MGJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGJRouter-Info.plist"; sourceTree = "<group>"; };
+		ADD5608A0A7A5F580A53AE3440AB5411 /* Pods-QXMe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXMe_Tests.modulemap"; sourceTree = "<group>"; };
+		B5574F7FE5F2E7160EB23210A977EC9B /* Pods-QXMe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMe_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BBF8F89C3824F885A53BA1B1A0055081 /* QXMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXMe.framework; path = QXMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB31B84F6692FA259040FF19EF49C07 /* QXMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXMe.modulemap; sourceTree = "<group>"; };
+		BF56E9FC0292E2840469DE1C84D3EC39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3E128BBA96180434D184ACD25A1AD33 /* QXMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXMe-umbrella.h"; sourceTree = "<group>"; };
+		CC3002D273529A67C9C2E493DC6551D5 /* QXMePublicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QXMePublicHeader.h; path = QXMe/Classes/QXMePublicHeader.h; sourceTree = "<group>"; };
+		CD2226BEB699FC8F3034E96263F1B372 /* QXMe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXMe-prefix.pch"; sourceTree = "<group>"; };
+		D19C1E87C19AFDF4BD7F4572E1AD05CC /* QXMeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QXMeController.h; path = QXMe/Classes/QXMeController.h; sourceTree = "<group>"; };
+		D4D1769BDF8E06F1E72CA2D2A6FDA943 /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		D4E4015ECBAF06E93B430EFD5823B61D /* QXMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXMe.release.xcconfig; sourceTree = "<group>"; };
+		E339AFD74F8AA8658D83566D43194F02 /* Pods-QXMe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXMe_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E3EF37F2C962D567912D395BA26E5005 /* QXMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXMe.debug.xcconfig; sourceTree = "<group>"; };
+		E67D90DC3937EA4B3353F9DB01C9DEEB /* Pods-QXMe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXMe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC69E6F2F4CD49D5FFEB4CEC82330874 /* QXMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXMe-dummy.m"; sourceTree = "<group>"; };
+		ECF07DFFE262A664220115A43449C5B1 /* Pods-QXMe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMe_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F78773AFAB7C60D1104B0909B3BAF6A3 /* MGJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGJRouter.modulemap; sourceTree = "<group>"; };
+		FB9B45C4CB35ADB82F6608D61F475F91 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164F73B048FC39DF3C85CB2A3D14DB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACB59DB18CB3408BA1F99D53837D40F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B011D8A3B30B6B85AC3824778ACDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EB40A721F0230806F2E631CDDAD870 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89740A52928B902E95544B7BCC7CF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B7CF8067841A944309D428E66AC3D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8BF2D533BCC966E1CB15C4227623D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0607E977B7BAC4F8A99F71743526E9D /* Foundation.framework in Frameworks */,
+				B4CD14FC9F307C6FABA35041AE886207 /* MGJRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DF7A894B0682BD58B94837E8345A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B1FB3877F7FAA19795E290F949BE360 /* MGJRouter.framework */,
+				3D5BCF0F9C39F0695023B8084752068D /* Pods_QXMe_Example.framework */,
+				A06F6581322EE78E5C97AB7D59B13FD0 /* Pods_QXMe_Tests.framework */,
+				BBF8F89C3824F885A53BA1B1A0055081 /* QXMe.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08DD3C419088F0133D5A0C80E1D0442F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78773AFAB7C60D1104B0909B3BAF6A3 /* MGJRouter.modulemap */,
+				7CA4476E8C72C0C3320B977F4C09ED21 /* MGJRouter-dummy.m */,
+				AD567DB83A29CBD91112C2EC8629E6C2 /* MGJRouter-Info.plist */,
+				55FA30282FA596A770C90284B9538EE1 /* MGJRouter-prefix.pch */,
+				8D65E9283D32B3E0C8B93989251128EE /* MGJRouter-umbrella.h */,
+				661A82C27143FF39B50949FE02741AED /* MGJRouter.debug.xcconfig */,
+				74AEAD491BBF97604A5B7045A18A6721 /* MGJRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
+		45B8D5C9E82A7FEB31E244F743E71EB1 /* QXMe */ = {
+			isa = PBXGroup;
+			children = (
+				536AECD04B7BFD7A8996C021AAE2BDE7 /* QXMe.xcassets */,
+				D19C1E87C19AFDF4BD7F4572E1AD05CC /* QXMeController.h */,
+				4F3F8828DCF173184160612EAA79BBC4 /* QXMeController.m */,
+				4EB080D8FAEC0394356D816FC3BB97B4 /* QXMeController.xib */,
+				1AE5E5323E67714037F8F5A4BF8E435D /* QXMeLoad.h */,
+				32C7168B3A45517C43AD5CFB2C908B05 /* QXMeLoad.m */,
+				CC3002D273529A67C9C2E493DC6551D5 /* QXMePublicHeader.h */,
+				A0E41E6EE117597A6B8E27435F0D5D68 /* Pod */,
+				FCB8358A655D52A8BEF3347C4B7C358D /* Support Files */,
+			);
+			name = QXMe;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54A678366BD51208861795F179115281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91A6032F3C8D4357D487FF3F7D765C07 /* MGJRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65F4D7727079B4A2780EA2886072F3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */,
+				7B3A87364B81ED429D3E293780AB3A80 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66398865A574A16E1075C95FF98A9885 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B8D5C9E82A7FEB31E244F743E71EB1 /* QXMe */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B3A87364B81ED429D3E293780AB3A80 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91A6032F3C8D4357D487FF3F7D765C07 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				FB9B45C4CB35ADB82F6608D61F475F91 /* MGJRouter.h */,
+				D4D1769BDF8E06F1E72CA2D2A6FDA943 /* MGJRouter.m */,
+				08DD3C419088F0133D5A0C80E1D0442F /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		9B3146948617D6AAD66B6A747E7FFD83 /* Pods-QXMe_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8A0E81D97BBF144B7E53284A4DB9C973 /* Pods-QXMe_Example.modulemap */,
+				22C5A3C3288035770F8E62E2F9DA8F6A /* Pods-QXMe_Example-acknowledgements.markdown */,
+				4A6E06E41C704CE80723E3396DCF8B1A /* Pods-QXMe_Example-acknowledgements.plist */,
+				8F05D77883F45067F07F02490F48A9DB /* Pods-QXMe_Example-dummy.m */,
+				E339AFD74F8AA8658D83566D43194F02 /* Pods-QXMe_Example-frameworks.sh */,
+				517DA1FCB6937F9FEF86B0F8C947F366 /* Pods-QXMe_Example-Info.plist */,
+				3B831CDEE97796D221CC70CF343EA821 /* Pods-QXMe_Example-umbrella.h */,
+				ECF07DFFE262A664220115A43449C5B1 /* Pods-QXMe_Example.debug.xcconfig */,
+				B5574F7FE5F2E7160EB23210A977EC9B /* Pods-QXMe_Example.release.xcconfig */,
+			);
+			name = "Pods-QXMe_Example";
+			path = "Target Support Files/Pods-QXMe_Example";
+			sourceTree = "<group>";
+		};
+		A0E41E6EE117597A6B8E27435F0D5D68 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0062AD291C43B75D6D4179F38B3D429F /* LICENSE */,
+				3525569351F1EC13C13E1E5BF0EECD89 /* QXMe.podspec */,
+				BF56E9FC0292E2840469DE1C84D3EC39 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				66398865A574A16E1075C95FF98A9885 /* Development Pods */,
+				65F4D7727079B4A2780EA2886072F3BE /* Frameworks */,
+				54A678366BD51208861795F179115281 /* Pods */,
+				05DF7A894B0682BD58B94837E8345A36 /* Products */,
+				E2EE289A29C35C4BBD8DB4EDFC9CA98C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2EE289A29C35C4BBD8DB4EDFC9CA98C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B3146948617D6AAD66B6A747E7FFD83 /* Pods-QXMe_Example */,
+				FF2B551DEB0FC546BB31366F0D639394 /* Pods-QXMe_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCB8358A655D52A8BEF3347C4B7C358D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB31B84F6692FA259040FF19EF49C07 /* QXMe.modulemap */,
+				EC69E6F2F4CD49D5FFEB4CEC82330874 /* QXMe-dummy.m */,
+				818145549F546EB6FF375052EB038815 /* QXMe-Info.plist */,
+				CD2226BEB699FC8F3034E96263F1B372 /* QXMe-prefix.pch */,
+				C3E128BBA96180434D184ACD25A1AD33 /* QXMe-umbrella.h */,
+				E3EF37F2C962D567912D395BA26E5005 /* QXMe.debug.xcconfig */,
+				D4E4015ECBAF06E93B430EFD5823B61D /* QXMe.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QXMe";
+			sourceTree = "<group>";
+		};
+		FF2B551DEB0FC546BB31366F0D639394 /* Pods-QXMe_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD5608A0A7A5F580A53AE3440AB5411 /* Pods-QXMe_Tests.modulemap */,
+				E67D90DC3937EA4B3353F9DB01C9DEEB /* Pods-QXMe_Tests-acknowledgements.markdown */,
+				6869BC96E94E1A40C61AF9ABF08AB478 /* Pods-QXMe_Tests-acknowledgements.plist */,
+				A0B37CBA152385C459F34EC3BD0CF3F7 /* Pods-QXMe_Tests-dummy.m */,
+				68D7BEAAFB84531436840BECFCA9D904 /* Pods-QXMe_Tests-Info.plist */,
+				866FFE5FEA88FB36FAF8380C7EC4FC97 /* Pods-QXMe_Tests-umbrella.h */,
+				52F85A6D335503A1726736CAB5E00310 /* Pods-QXMe_Tests.debug.xcconfig */,
+				1452AAEAFCB30EA41F8D827EA1461D5D /* Pods-QXMe_Tests.release.xcconfig */,
+			);
+			name = "Pods-QXMe_Tests";
+			path = "Target Support Files/Pods-QXMe_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12AD018A58906C1A63B5CB7C7ABE7FDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA16666F08AEF2D22B1D653C2D847A /* Pods-QXMe_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F9C35965DC4AC13912C43D7A56DA72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ED63DE829FB788E8AE393681CE1437 /* MGJRouter-umbrella.h in Headers */,
+				0DCCE7BCE109023B7E8E3E8E3E4BA780 /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E41FAFD92392199F5A7272B9D26CE03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF5A8EF1A46F7089BFB1B6E3ADD3D37 /* Pods-QXMe_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA302A0FA68570F26F062363F00E08D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23763F63A1B2BCB076E46180E01A556 /* QXMe-umbrella.h in Headers */,
+				EDF6E43CA02EA74F212A7188F6859550 /* QXMeController.h in Headers */,
+				89C1A14D61049E8EB41E02EEB5B7AC16 /* QXMeLoad.h in Headers */,
+				2E3860772A43580E38586F2F30E75044 /* QXMePublicHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05EFAB4641387DB59867C088BAF00810 /* MGJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CE2575551131B310576429444FC38F /* Build configuration list for PBXNativeTarget "MGJRouter" */;
+			buildPhases = (
+				87F9C35965DC4AC13912C43D7A56DA72 /* Headers */,
+				E391755D53454E8966DB37EE1E16006E /* Sources */,
+				D89740A52928B902E95544B7BCC7CF14 /* Frameworks */,
+				25BA684AF9D85842AFD51CB931FE8892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = 7B1FB3877F7FAA19795E290F949BE360 /* MGJRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28B36B270FD1CE80047B911687513E95 /* Pods-QXMe_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2344FDC8968D2FAB7CD6CFF68F4E9AE7 /* Build configuration list for PBXNativeTarget "Pods-QXMe_Tests" */;
+			buildPhases = (
+				9E41FAFD92392199F5A7272B9D26CE03 /* Headers */,
+				EF819E5065797BC8727243FA1BDA9DB4 /* Sources */,
+				88B011D8A3B30B6B85AC3824778ACDB8 /* Frameworks */,
+				16003805DE128FD64AAA025F25CA3559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21472E89A9BE7D87EC397F6F44DCE60 /* PBXTargetDependency */,
+			);
+			name = "Pods-QXMe_Tests";
+			productName = "Pods-QXMe_Tests";
+			productReference = A06F6581322EE78E5C97AB7D59B13FD0 /* Pods_QXMe_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5483699A87FBA980A8AEDDB981ABD34E /* QXMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3910DB27CE32413877C6850A4EB7A9EA /* Build configuration list for PBXNativeTarget "QXMe" */;
+			buildPhases = (
+				BCA302A0FA68570F26F062363F00E08D /* Headers */,
+				F5C8474FE258E724ED1E72A26848043F /* Sources */,
+				DF8BF2D533BCC966E1CB15C4227623D5 /* Frameworks */,
+				EA0C443074DF864D38B50B413F11B6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB8EBB102E2C42A3FFBADDA652A5B2D /* PBXTargetDependency */,
+			);
+			name = QXMe;
+			productName = QXMe;
+			productReference = BBF8F89C3824F885A53BA1B1A0055081 /* QXMe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8991FEC2C92EFB5709FD96310FF4B847 /* Pods-QXMe_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C5640758A4EF96AF08A887E009D54C /* Build configuration list for PBXNativeTarget "Pods-QXMe_Example" */;
+			buildPhases = (
+				12AD018A58906C1A63B5CB7C7ABE7FDE /* Headers */,
+				3ED3F4AA403ACEF6CC80D75D3B82634C /* Sources */,
+				164F73B048FC39DF3C85CB2A3D14DB66 /* Frameworks */,
+				C7B6A7435E3F7DF92ED68ADFE020E27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA447245F9B367B9A0A591AE84F16B18 /* PBXTargetDependency */,
+				A3CAE75F4A0213707DD119823C2E8DEF /* PBXTargetDependency */,
+			);
+			name = "Pods-QXMe_Example";
+			productName = "Pods-QXMe_Example";
+			productReference = 3D5BCF0F9C39F0695023B8084752068D /* Pods_QXMe_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 05DF7A894B0682BD58B94837E8345A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05EFAB4641387DB59867C088BAF00810 /* MGJRouter */,
+				8991FEC2C92EFB5709FD96310FF4B847 /* Pods-QXMe_Example */,
+				28B36B270FD1CE80047B911687513E95 /* Pods-QXMe_Tests */,
+				5483699A87FBA980A8AEDDB981ABD34E /* QXMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16003805DE128FD64AAA025F25CA3559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BA684AF9D85842AFD51CB931FE8892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B6A7435E3F7DF92ED68ADFE020E27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0C443074DF864D38B50B413F11B6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABF5EDD3C13D95300FF2298CC8CC3E1 /* QXMe.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ED3F4AA403ACEF6CC80D75D3B82634C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E2985987D2871D5112EE0C5699F4F9 /* Pods-QXMe_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E391755D53454E8966DB37EE1E16006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E70B7F07A5C449BB2470BAAF382DEE8 /* MGJRouter-dummy.m in Sources */,
+				0B88CB510523DB5A794ED7B919A518EC /* MGJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF819E5065797BC8727243FA1BDA9DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F304A8FE4557792A88191EC9ED9E98D /* Pods-QXMe_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C8474FE258E724ED1E72A26848043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C326E8B5547C229EC586A4A78123BAE /* QXMe-dummy.m in Sources */,
+				4E529E161E82A3730CDCA073929C8385 /* QXMeController.m in Sources */,
+				057914133F35189B2158DEBB415468AA /* QXMeController.xib in Sources */,
+				4648F2E8BE841E7DFD83184F53C17B73 /* QXMeLoad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB8EBB102E2C42A3FFBADDA652A5B2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 05EFAB4641387DB59867C088BAF00810 /* MGJRouter */;
+			targetProxy = F9D809BD8CEBA8088711F7E06EF1F8F2 /* PBXContainerItemProxy */;
+		};
+		A3CAE75F4A0213707DD119823C2E8DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QXMe;
+			target = 5483699A87FBA980A8AEDDB981ABD34E /* QXMe */;
+			targetProxy = 1B071CFED8029A1D1D1D2DB5C8F8C5FE /* PBXContainerItemProxy */;
+		};
+		CA447245F9B367B9A0A591AE84F16B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 05EFAB4641387DB59867C088BAF00810 /* MGJRouter */;
+			targetProxy = 140EEAA982E95D56FDD637D645B512B7 /* PBXContainerItemProxy */;
+		};
+		E21472E89A9BE7D87EC397F6F44DCE60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QXMe_Example";
+			target = 8991FEC2C92EFB5709FD96310FF4B847 /* Pods-QXMe_Example */;
+			targetProxy = C9C8C849021014BAC0F29A8C2EC72C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		464AFB378B6A481A969DF0C6F8A3BBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5574F7FE5F2E7160EB23210A977EC9B /* Pods-QXMe_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXMe_Example/Pods-QXMe_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXMe_Example/Pods-QXMe_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		489116CBC872EA99205856EE31D63A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AEAD491BBF97604A5B7045A18A6721 /* MGJRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EBC741460BC710C963D24CAAB3BC925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B50CBA88C9F62E240E70A9C82DCF56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3EF37F2C962D567912D395BA26E5005 /* QXMe.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QXMe/QXMe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXMe/QXMe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QXMe/QXMe.modulemap";
+				PRODUCT_MODULE_NAME = QXMe;
+				PRODUCT_NAME = QXMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783F5D3A3B344F87AF5CA680FB040B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1452AAEAFCB30EA41F8D827EA1461D5D /* Pods-QXMe_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXMe_Tests/Pods-QXMe_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXMe_Tests/Pods-QXMe_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		892D3B7E79AB4850776344187B0B5B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F85A6D335503A1726736CAB5E00310 /* Pods-QXMe_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXMe_Tests/Pods-QXMe_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXMe_Tests/Pods-QXMe_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A40FB7C4B9460AE765A736AB575EEB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD0CBB086818B91DE8F45BE32C3DCAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661A82C27143FF39B50949FE02741AED /* MGJRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E07D6BA2D28894F77CFBFE490A9ED697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E4015ECBAF06E93B430EFD5823B61D /* QXMe.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QXMe/QXMe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXMe/QXMe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QXMe/QXMe.modulemap";
+				PRODUCT_MODULE_NAME = QXMe;
+				PRODUCT_NAME = QXMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F947B4446CFB6AD8ECFBC09712827782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF07DFFE262A664220115A43449C5B1 /* Pods-QXMe_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QXMe_Example/Pods-QXMe_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QXMe_Example/Pods-QXMe_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2344FDC8968D2FAB7CD6CFF68F4E9AE7 /* Build configuration list for PBXNativeTarget "Pods-QXMe_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892D3B7E79AB4850776344187B0B5B1D /* Debug */,
+				783F5D3A3B344F87AF5CA680FB040B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C5640758A4EF96AF08A887E009D54C /* Build configuration list for PBXNativeTarget "Pods-QXMe_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F947B4446CFB6AD8ECFBC09712827782 /* Debug */,
+				464AFB378B6A481A969DF0C6F8A3BBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3910DB27CE32413877C6850A4EB7A9EA /* Build configuration list for PBXNativeTarget "QXMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B50CBA88C9F62E240E70A9C82DCF56F /* Debug */,
+				E07D6BA2D28894F77CFBFE490A9ED697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBC741460BC710C963D24CAAB3BC925 /* Debug */,
+				A40FB7C4B9460AE765A736AB575EEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CE2575551131B310576429444FC38F /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0CBB086818B91DE8F45BE32C3DCAB6 /* Debug */,
+				489116CBC872EA99205856EE31D63A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

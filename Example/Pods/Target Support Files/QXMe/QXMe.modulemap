@@ -1,0 +1,6 @@
+framework module QXMe {
+  umbrella header "QXMe-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_QXMe_Example {
+  umbrella header "Pods-QXMe_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

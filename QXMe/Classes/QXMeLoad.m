@@ -18,7 +18,8 @@
                         toHandler:^(NSDictionary *routerParameters) {
         UINavigationController *navigationVC = routerParameters[MGJRouterParameterUserInfo][@"navigationVC"];
         // block
-        void(^block)(NSString *) = routerParameters[MGJRouterParameterUserInfo][@"block"];
+//        void(^block)(NSString *) = routerParameters[MGJRouterParameterUserInfo][@"block"];
+        
         NSString *title = routerParameters[MGJRouterParameterUserInfo][@"title"];
        
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];

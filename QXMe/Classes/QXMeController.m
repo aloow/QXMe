@@ -6,6 +6,7 @@
 //
 
 #import "QXMeController.h"
+#import <MGJRouter/MGJRouter.h>
 
 @interface QXMeController ()
 
@@ -18,5 +19,11 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (IBAction)toVIPTap:(id)sender {
+    
+    UIViewController *targetController = [MGJRouter objectForURL:@"QXVIP://MembersNot/getHome"];
+    [self presentViewController:targetController animated:true completion:nil];
+    
+}
 
 @end
